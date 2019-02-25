@@ -32,18 +32,67 @@ h6 {
 /* layout */
 
 #main-wrapper {
-	background: url(images/bg-intro.svg) no-repeat;
-	
+	background: top / 100% 540px no-repeat url(images/bg-intro.svg);
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-/*	color: white;*/
-	padding: 30px;
+	color: white;
+	font-size: 1.5em;
 }
 
-#social-links {
+#social-links > li {
 	display: inline-block;
+	margin: 0 0 0 25px;
+}
+
+#main-illustration-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+#main-illustration-wrapper > img {
+	max-width: 100%;
+	height: auto;
+}
+
+main, footer {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+main {
+	flex: 1;
+}
+
+main > p, main > h1 {
+	margin-top: 30px;
+}
+
+#sign-up-form {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+#sign-up-form > * {
+	margin-bottom: 10px;
+}
+
+footer {
+	display: flex;
+/*	justify-content: flex-end;*/
+/*	align-items: flex-end;*/
+}
+
+footer > a {
+	
 }
