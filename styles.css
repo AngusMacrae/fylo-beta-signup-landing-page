@@ -22,6 +22,7 @@ label,
 input, 
 button {
 	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
 }
 
 h1,
@@ -63,15 +64,21 @@ main > p {
 	color: hsl(0, 0%, 50%)
 }
 
-
 /* layout */
 
 #main-wrapper {
 	background: top / 100% 540px no-repeat url(images/bg-intro.svg);
-	padding: 30px;
+	padding: 50px;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+}
+
+header, 
+main, 
+footer {
+	margin: 0 auto;
+	max-width: 500px;
 }
 
 header {
@@ -79,12 +86,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	color: white;
-	font-size: 2.4em;
+	font-size: 1.8em;
 }
 
 #social-links > li {
 	display: inline-block;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 1em;
 }
 
 #main-illustration-wrapper {
@@ -99,27 +106,22 @@ header {
 	height: auto;
 }
 
-main, footer {
-	margin: 0 auto;
-	max-width: 500px;
-}
-
 main {
 	flex: 1;
 }
 
 main > p, main > h1 {
-	margin-top: 30px;
+	margin-top: 1em;
 }
 
 #sign-up-form {
-	margin-top: 30px;
+	margin-top: 3em;
 	display: flex;
 	flex-direction: column;
 }
 
 #sign-up-form > * {
-	margin-bottom: 10px;
+	margin-bottom: 1em;
 }
 
 label {
@@ -129,7 +131,7 @@ label {
 input {
 	border: 1px solid hsla(0, 0%, 50%, 50%);
 	border-radius: 3px;
-	padding: 0.7em;
+	padding: 0.6em;
 	transition: border 0.2s, background-color 0.2s;
 }
 
@@ -147,8 +149,8 @@ button {
 	font-weight: bold;
 	border: none;
 	border-radius: 3px;
-	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
-	padding: 0.7em;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+	padding: 0.6em;
 	width: 10em;
 	cursor: pointer;
 	transition: background-color 0.2s;
@@ -166,4 +168,10 @@ footer {
 
 footer > a {
 	
+}
+
+@media only screen and (min-width: 800px) {
+	* {
+/*		color: white !important;*/
+	}
 }
