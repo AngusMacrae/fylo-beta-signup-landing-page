@@ -1,8 +1,17 @@
+/* reset */
+
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+ul {
+	list-style: none;
+}
+
+/* typography */
 
 p,
 a,
@@ -18,4 +27,23 @@ h4,
 h5,
 h6 {
 	font-family: 'Raleway', sans-serif;
+}
+
+/* layout */
+
+#main-wrapper {
+	background: url(images/bg-intro.svg) no-repeat;
+	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+/*	color: white;*/
+	padding: 30px;
+}
+
+#social-links {
+	display: inline-block;
 }
