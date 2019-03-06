@@ -114,6 +114,7 @@ footer {
 .header-links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #social-links > li {
@@ -219,16 +220,16 @@ footer > a {
         justify-content: space-between;
     }
 
-    header {
-        color: hsl(243, 87%, 12%);
-    }
-
     #logo-dark-blue {
         display: block;
     }
 
     #logo-white {
         display: none;
+    }
+    
+    #social-links a {
+        color: hsl(243, 87%, 12%);
     }
 
     footer {}
