@@ -48,6 +48,10 @@ button {
     font-size: 1.6em;
 }
 
+#social-links a {
+    font-size: 1.3em;
+}
+
 /* font colours */
 
 #social-links a {
@@ -120,6 +124,11 @@ footer {
 #social-links > li {
     display: inline-block;
     margin: 0 0 0 1em;
+    transition: scale 0.2s;
+}
+
+#social-links > li:hover {
+    transform: scale(1.2);
 }
 
 main > p,
