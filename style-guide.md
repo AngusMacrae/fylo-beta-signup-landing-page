@@ -12,7 +12,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Soft Blue: hsl(243, 86%, 85%)
-- Dark Blue: hsl(243, 87%, 12%)
+- Dark Blue: #070439
 
 ### Accent
 

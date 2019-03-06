@@ -2,55 +2,66 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-	<title>Frontend Mentor | Beta sign up split layout Challenge</title>
+    <title>Frontend Mentor | Beta sign up split layout Challenge</title>
 
-	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div id="main-wrapper">
-		<div id="header-wrapper">
-			<header>
-				<a href=""><img src="images/logo.svg" id="logo"></a>
-				<ul id="social-links">
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fas fa-envelope"></i></a></li>
-				</ul>
-			</header>
-			<div id="main-illustration-wrapper"><img src="images/illustration-main.svg">
-			</div>
-		</div>
-		<main>
-			<h1>All your files in one secure location, accessible anywhere.</h1>
 
-			<p>Fylo stores all your most important files in one secure location.
-				Access them wherever you need, share and collaborate with friends,
-				family and co-workers.</p>
-			<form id="sign-up-form">
-				<label>Sign up for early access</label>
-				<input>
-				<button>Sign Up</button>
-			</form>
-		</main>
-		<footer>
-			<a href="#">Privacy Policy</a>
-			<!--
+    <div id="hero-image-desktop-wrapper">
+        <img src="images/illustration-main.svg" id="hero-image-desktop">
+    </div>
+
+    <div id="page-content">
+
+        <header>
+            <div class="header-links">
+                <a href="" id="logo-white"><img src="images/logo-white.svg" id="logo"></a>
+                <a href="" id="logo-dark-blue"><img src="images/logo-dark-blue.svg" id="logo"></a>
+                <ul id="social-links">
+                    <li>tw<a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li>fb<a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li>mail<a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <img src="images/illustration-main.svg" id="hero-img-mobile">
+        </header>
+
+        <main>
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+
+            <p>Fylo stores all your most important files in one secure location.
+                Access them wherever you need, share and collaborate with friends,
+                family and co-workers.</p>
+            <form id="sign-up-form">
+                <label>Sign up for early access</label>
+                <div id="input-button-container">
+                    <input>
+                    <button>Sign Up</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <a href="#">Privacy Policy</a>
+            
+<!--
 		<p class="attribution">
 			This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
 		</p>
 -->
-		</footer>
-	</div>
+
+        </footer>
+    </div>
 </body>
 
 </html>
