@@ -15,5 +15,5 @@ Webfonts were obtained from Google Fonts and social media icons from Font Awesom
 ## To do:
 
 Add appropriate attributes to HTML for sign-up form
+
 Fix image for mobile views (maybe make initial max-width a % figure then add a media query for changing to 3xxpx?)
-Remove social media icon placeholder text
